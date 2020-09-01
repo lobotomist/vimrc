@@ -30,6 +30,11 @@ Plugin 'valloric/youcompleteme'
 " Colorschemes
 Plugin 'flazz/vim-colorschemes'
 
+" Comments 
+Plugin 'scrooloose/nerdcommenter'
+" Java unit-test
+Plugin 'vim-test/vim-test'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
