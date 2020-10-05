@@ -1,4 +1,5 @@
-set encoding=utf-8
+set encoding=UTF-8
+set guifont=DroidSansMono_Nerd_Font:h11
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -34,7 +35,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'scrooloose/nerdcommenter'
 " Java unit-test
 Plugin 'vim-test/vim-test'
-
+Plugin 'ryanoasis/vim-devicons'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -60,6 +61,7 @@ filetype plugin indent on    " required
 
 " Vim Airline config
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 " Autorun for 'preservim/nerdtree'
 " autocmd vimenter * NERDTree
